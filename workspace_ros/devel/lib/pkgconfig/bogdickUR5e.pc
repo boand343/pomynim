@@ -1,0 +1,8 @@
+prefix=/home/boand/workspace_ros/devel
+
+Name: bogdickUR5e
+Description: Description of bogdickUR5e
+Version: 2.0.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

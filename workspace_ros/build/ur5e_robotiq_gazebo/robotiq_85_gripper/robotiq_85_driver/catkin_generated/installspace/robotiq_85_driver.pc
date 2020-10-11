@@ -1,0 +1,8 @@
+prefix=/home/boand/workspace_ros/install
+
+Name: robotiq_85_driver
+Description: Description of robotiq_85_driver
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

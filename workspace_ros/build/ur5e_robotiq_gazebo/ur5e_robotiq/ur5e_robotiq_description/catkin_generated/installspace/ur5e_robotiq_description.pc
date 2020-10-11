@@ -1,0 +1,8 @@
+prefix=/home/boand/workspace_ros/install
+
+Name: ur5e_robotiq_description
+Description: Description of ur5e_robotiq_description
+Version: 1.2.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

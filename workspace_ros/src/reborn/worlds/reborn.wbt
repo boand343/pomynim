@@ -1,0 +1,32 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.06477822890066896 0.8974038230701625 0.4364288709509819 2.8627843615131034
+  position 1.5768084767007404 2.4850302543992573 -2.869211640313375
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+}
+UR5e {
+  controller "UR5_e_by_Bogdick"
+  selfCollision FALSE
+  toolSlot [
+    Camera {
+      translation 0 0.015 0
+      rotation -1 -9.3236e-07 7.99672e-07 -1.5707953071795862
+    }
+    GPS {
+    }
+    DistanceSensor {
+    }
+  ]
+}
+Can {
+  translation 0.25 0.06 -0.25
+}

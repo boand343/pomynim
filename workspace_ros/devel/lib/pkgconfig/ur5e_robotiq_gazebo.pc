@@ -1,0 +1,8 @@
+prefix=/home/boand/workspace_ros/devel
+
+Name: ur5e_robotiq_gazebo
+Description: Description of ur5e_robotiq_gazebo
+Version: 1.2.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

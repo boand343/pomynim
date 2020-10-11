@@ -1,0 +1,8 @@
+prefix=/home/boand/workspace_ros/devel
+
+Name: photo_package
+Description: Description of photo_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

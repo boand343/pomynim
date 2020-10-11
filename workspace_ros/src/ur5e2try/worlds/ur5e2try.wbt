@@ -1,0 +1,25 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.5063347173391597 0.8490701876873725 0.15068168567415013 0.6311511281075273
+  position 1.732062427821962 1.100666912420375 2.420636791300502
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorTileSize 0.25 0.25
+  wallHeight 0.05
+}
+WoodenBox {
+  translation 0.00870431 0.05 0.00669858
+  size 0.1 0.1 0.1
+  mass 0.2
+}
+E-puck {
+  translation -0.185072 2.22045e-16 0.0655784
+  controller "e-puck_avoid_collision"
+}

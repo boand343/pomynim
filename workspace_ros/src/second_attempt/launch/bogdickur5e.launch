@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- start Webots -->
+  <arg name="no-gui" default="false," doc="Start Webots with minimal GUI"/>
+  <include file="$(find webots_ros)/launch/webots.launch">
+    <arg name="mode" value="realtime"/>
+    <arg name="no-gui" value="$(arg no-gui)"/>
+    <arg name="world" value="/home/boand/workspace_ros/src/bogdickur5e/src/worlds/bogdickUR5e.wbt"/>
+  </include>
+  <arg name="duration" default="20" doc="Duration in seconds"/>
+  <arg name="auto-close" default="false" doc="Startup mode"/>
+  <param name="use_sim_time" value="true" type="bool" />
+  <node name="my_node_bogdick" pkg="second_attempt" type="universal_robots_ros.py" args="$(arg duration)" required="$(arg auto-close)"/>
+</launch>
